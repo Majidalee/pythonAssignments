@@ -1,3 +1,8 @@
+#"Assignment # 4"
+
+
+#Question # 1
+
 '''
 def factorial(num):
     factorial=1
@@ -6,6 +11,8 @@ def factorial(num):
     return f'the factorial of {num} is {factorial}'
 print(factorial(7))        
 '''
+
+#Question # 2
 
 # uppper case later and lowerr case later
 '''
@@ -22,6 +29,7 @@ def string_check(char_string):
 string_value='tHiS iS mAJiD'              
 print(string_check(string_value))            
 '''
+#Question # 3
 
 '''
 list_of_numbers=[1,2,3,4,5,6]
@@ -31,6 +39,10 @@ for num in list_of_numbers:
     else:
         pass     
 '''
+
+#Question # 4
+
+
 
 '''
 def reverse(value):
@@ -45,3 +57,28 @@ def ispalindrome(value):
 print(ispalindrome('bob'))
 '''
 
+#Question # 5
+
+'''
+def isprime(num):
+    for i in (2,num):
+        if (num%i!=0):
+            print(f'{num} is a prime number')
+        else:
+            print(f'{num} is not prime number')
+            break
+            
+print(isprime(2))
+'''
+
+#Question # 6
+'''
+def shoping_list(*items):
+    return print(*items)
+    
+    
+    # print(items)
+shoping_items=input('enter your , seprated shoping items seprated with ').split(',')
+items=list(shoping_items)    
+print(shoping_list(items))    
+'''
